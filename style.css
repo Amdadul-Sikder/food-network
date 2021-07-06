@@ -127,16 +127,14 @@ footer p{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 2% 5%;
+    padding: 1% 5%;
+    box-shadow: 5px 5px 40px lightgray;
 }
 .logo a{
     text-decoration: none;
     font-size:40px;
     font-weight: 700;
     color: #000;
-    border: 1px solid #d8492c;
-    padding: 5px 20px;
-    border-radius: 5px;
 }
 .menu ul li{
     list-style: none;
