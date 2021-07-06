@@ -2,10 +2,10 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-section{
-    display: flex;
+.hero-area, .about-area, .blog-items, .counter-items{
+    display:flex;
 }
-.hero-area{
+.hero-area, .blog-area, .counter-up-area{
     padding: 5%;
 
 }
@@ -60,4 +60,67 @@ p{
 .about-area{
     margin-top: 50px;
     padding-top: 100px;
+}
+.blog-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.blog-content h1{
+    font-size: 36px;
+}
+.blog-content p{
+    font-size: 18px;
+    color: #252525;
+    margin-bottom: 100px;
+}
+
+.single-blog-item{
+    width: 25%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 30px lightgray;
+    padding: 2%;
+    border-radius: 30px;
+}
+.single-blog-img img{
+    width: 100%;
+}
+.single-blog-content h2{
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.single-blog-content p{
+    color: #18191F;
+}
+.single-counter-item{
+    width: 30%;
+    margin: 0 auto;
+}
+.counter-items{
+    text-align: center;
+    box-shadow: 0 0 30px lightgray;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+.single-counter-item h1{
+    margin: 0;
+    font-size: 48px;
+    color: #18191F;
+}
+.single-counter-item p{
+    font-size: 16px;
+    color: #18191F;
+}
+footer{
+    text-align: center;
+    background: #0B0D17;
+}
+footer h1{
+    font-size: 30px;
+}
+footer p{
+    padding-bottom: 60px;
+    color: #fff;
 }
